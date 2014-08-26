@@ -1,0 +1,8 @@
+#!/bin/bash -x
+
+echo "Deploying Blog to OpenShift..."
+
+cd $OPENSHIFT_REPO_DIR
+git clone ${GIT_REPO_BLOG} blog > ~/play2/logs/deploy.log
+
+echo "All done!"

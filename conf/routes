@@ -1,0 +1,3 @@
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+->      /                           au.id.jazzy.erqx.engine.controllers.BlogsRouter
