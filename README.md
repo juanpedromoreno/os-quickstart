@@ -23,7 +23,7 @@ rhc app create myERQXBlog http://cartreflect-claytondev.rhcloud.com/reflect?gith
 
 ```bash
 cd myERQXBlog
-git remote add upstream -m master https://github.com/47deg/ERQX-OpenShift-QuickStart.git
+git remote add upstream -m master https://github.com/juanpedromoreno/os-quickstart.git
 git pull -s recursive -X theirs upstream master
 ```
 
